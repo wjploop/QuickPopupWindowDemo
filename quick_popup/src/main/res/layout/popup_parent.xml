@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/title"
+            android:text="电话联系"
+            android:textColor="@color/text_grey"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/text_grey"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            tools:text="hello你好啊啊打的hello你好啊
+            打的费
+            hello你好啊啊打的费hello你好啊啊打的费费"
+            android:visibility="gone"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:id="@+id/divider"
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"/>
+
+    <LinearLayout
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <View
+                    android:background="#f2f2f2"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"/>
+
+            <Button
+                    android:text="取消"
+                    android:id="@+id/cancel"
+                    android:textColor="#323232"
+                    android:background="@drawable/item_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

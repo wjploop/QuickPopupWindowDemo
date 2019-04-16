@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:background="#ffff"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <View
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+    <Button
+            tools:text="hello"
+            android:id="@+id/action_name"
+            android:textColor="#323232"
+            android:background="@drawable/item_button"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+</LinearLayout>
